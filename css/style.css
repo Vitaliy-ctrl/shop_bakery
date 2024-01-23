@@ -1,0 +1,98 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;*
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2');
+}
+
+:root {
+    --color-primary-dark: #31261a;
+    --color-primary-light: #FAF4EA;
+    --color-brand-dark: #465929;
+    --color-brand-light: #819B57;
+}
+
+/* Base */
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    color: var(--color-primary-dark);
+    border-radius: 8px;
+    font-weight: 600;
+    border: 2px solid var(--color-brand-light);
+    background-color: var(--color-brand-light);
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-brand-dark);
+    background-color: transparent;
+}
+
+.link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-brand-light);
+    text-decoration: underline;
+    font-weight: 600;
+}
+/*Hero Section*/
+.hero-section__title {
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 128px;
+    font-weight: 900;
+}
+
+.hero-section__title .text-brand {
+    color: var(--color-brand-light);
+}
+
+.advantages-section__list {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-light);
+}
+
+/*Tradition Section*/
+.traditions-text {
+    text-transform: uppercase;
+}
