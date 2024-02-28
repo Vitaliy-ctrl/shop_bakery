@@ -1,0 +1,19 @@
+<svg width="44.000000" height="44.000000" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_11_9950_dd" x="0.000000" y="0.000000" width="44.000000" height="44.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="5.12151"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_11_9950_dd)">
+		<circle id="Ellipse 5" r="22.000000" transform="matrix(-1 1 0 0 22 22)" fill="#FAF4EA" fill-opacity="0.700000"/>
+	</g>
+	<circle id="Ellipse 5" r="21.615887" transform="matrix(-1 1 0 0 22 22)" stroke="#31261A" stroke-opacity="1.000000" stroke-width="0.768227"/>
+	<path id="Arrow 1" d="M15.6523 22L20.6021 17.0502C20.998 16.6543 20.998 16.032 20.6021 15.636C20.2061 15.2401 19.5839 15.2401 19.1879 15.636L13.531 21.2929C13.135 21.6889 13.135 22.3111 13.531 22.7071L19.1879 28.364C19.5839 28.7599 20.2061 28.7599 20.6021 28.364C20.998 27.968 20.998 27.3457 20.6021 26.9498L15.6523 22Z" fill="#FAF4EA" fill-opacity="0.700000" fill-rule="nonzero"/>
+	<path id="Arrow 1" d="M31 21L14.238 21L14.238 23L31 23L31 21ZM15.6523 22L20.6021 17.0502C20.998 16.6543 20.998 16.032 20.6021 15.636C20.2061 15.2401 19.5839 15.2401 19.1879 15.636L13.531 21.2929C13.135 21.6889 13.135 22.3111 13.531 22.7071L19.1879 28.364C19.5839 28.7599 20.2061 28.7599 20.6021 28.364C20.998 27.968 20.998 27.3457 20.6021 26.9498L15.6523 22Z" fill="#31261A" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>
