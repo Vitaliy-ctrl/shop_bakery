@@ -101,6 +101,8 @@ ul {
 }
 
 .button {
+    display: block;
+    margin: 0 auto;
     padding: 16px 32px;
     color: var(--color-primary-light);
     border-radius: 8px;
@@ -114,6 +116,11 @@ ul {
     color: var(--color-brand-light);
     background-color: transparent;
 }
+
+/*.button:disabled {*/
+/*    background-color: #ffc891;*/
+/*    color: #D9D9D9;*/
+/*}*/
 
 .link {
     color: var(--color-primary-light);
@@ -458,8 +465,10 @@ ul {
     max-width: 880px;
     height: 100%;
     max-height: 880px;
+    padding: 128px;
     background-color: var(--color-primary-light);
     border-radius: 32px;
+    overflow-y: auto;
 }
 
 .backdrop.is-hidden {
@@ -474,3 +483,60 @@ ul {
     right: 40px;
 }
 
+/* Form */
+
+.modal__form-field,
+.contact-section__form-field input{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.input__label {
+    position: absolute;
+    top: 16px;
+    left: 42px;
+}
+
+.input__control {
+    padding: 16px 42px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.17;
+    border: 1px solid #a28268;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.input__control:focus {
+    border-color: var(--color-brand-light);
+    outline: none;
+}
+
+.input__control::placeholder {
+    color: #a28268;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.input__control:focus::placeholder {
+    color: var(--color-primary-dark);
+}
+
+.contact-section__button {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-terms {
+    margin: 0 auto;
+    max-width: 220px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.form-terms__link {
+    color: var(--color-primary-dark);
+    text-underline-offset: 2px;
+}
